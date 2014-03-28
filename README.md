@@ -24,7 +24,7 @@ In case your distribution does not include Go 1.1.2+, please fetch a more recent
 
 ### Fetch and compile example framework and executor
 
-    $ wget https://github.com/mesosphere/mesos-go/archive/master.zip
+    $ wget https://github.com/kraman/mesos-go/archive/master.zip
     $ unzip master.zip
     $ cd mesos-go-master
     $ export GOPATH=`pwd`

@@ -6,7 +6,7 @@ objects=	executor_driver.o \
 
 all: link
 
-cflags=-O2 -static -I/usr/local/include -I/usr/local/include/mesos -L/usr/local/lib
+cflags=-O2 -static -I/usr/include -I/usr/include/mesos -L/usr/local/lib
 
 %.o : %.cpp
 	$(CXX) $(cflags) -c $<

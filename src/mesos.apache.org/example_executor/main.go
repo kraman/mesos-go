@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"code.google.com/p/goprotobuf/proto"
-	"github.com/mesosphere/mesos-go/src/mesos.apache.org/mesos"
+	"github.com/kraman/mesos-go/src/mesos.apache.org/mesos"
 )
 
 func main() {
